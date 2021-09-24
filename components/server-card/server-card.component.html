@@ -1,0 +1,16 @@
+
+<div class="box">
+    <div>
+      {{ server.server_name }}
+      <br />
+      IP: {{ server.ip }}
+      <br />
+      Hosting Name: {{ server.hosting_name }}
+      <br />
+      Created Date: {{ server.created_date }}
+<br/>
+<mat-slide-toggle [(ngModel)]="isChecked"  (change)="changeStatus($event)"> {{status}}</mat-slide-toggle>
+    </div>
+    <hr />
+  </div>
+  

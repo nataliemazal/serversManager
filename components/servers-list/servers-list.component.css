@@ -1,0 +1,14 @@
+.buttons{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 600px;
+    margin-top: 20px;
+}
+
+
+.servers-list{
+    display: flex;
+    margin-left: 300px;
+    width: 600px;
+}

@@ -1,0 +1,14 @@
+.box {
+    width: 300px;
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 5px;
+}
+mat-slide-toggle {
+    margin: 8px 0;
+    display: block;
+  }
+

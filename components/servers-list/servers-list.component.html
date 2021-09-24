@@ -1,0 +1,9 @@
+<div >
+<div class="buttons">
+    <button mat-raised-button color="accent" (click)="sortByDate()" >sort by created date</button>
+    <button mat-raised-button color="accent" (click)="onlineServersOnly()">show online servers only</button>
+</div>
+<div class="servers-list">
+    <app-server-card *ngFor="let s of servers" [server]="s"></app-server-card>
+</div>  
+</div>
